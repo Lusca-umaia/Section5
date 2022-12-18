@@ -1,0 +1,61 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastrar</title>
+    <link rel="stylesheet" href="../Style/cadastrar.css">
+</head>
+
+<body>
+    <nav>
+        <div class="groupNav">
+            <img src="../img/logo_semsite_semfundo.png" alt="Logo Flit" height="60px">
+            <div class="direc">
+                <a href="./index.html">Home</a>
+                <a href="./cadastrar.html">Cadastro</a>
+            </div>
+        </div>
+    </nav>
+    <h1>- Cadastro de Filmes -</h1>
+    <form class="form">
+        <div class="camp">
+            <label for="">Título:</label>
+            <input type="text" id="titulo">
+        </div>
+        <div class="camp">
+            <label for="">Descrição:</label>
+            <input type="text" id="descricao">
+        </div>
+        <div class="campCheck">
+            <label for="">Terror:</label>
+            <input type="checkbox" class="inputChe" value="Terror">
+        </div>
+        <div class="campCheck">
+            <label for="">Comédia:</label>
+            <input type="checkbox" class="inputChe" value="Comédia">
+        </div>
+        <div class="campCheck">
+            <label for="">Aventura:</label>
+            <input type="checkbox" class="inputChe" value="Aventura">
+        </div>
+        <div class="campCheck">
+            <label for="">Ação:</label>
+            <input type="checkbox" class="inputChe" value="Ação">
+        </div>
+        <div class="campCheck">
+            <label for="">Outro:</label>
+            <input type="checkbox" class="inputChe" value="Outro">
+        </div>
+        <div class="camp">
+            <label for="">Nota:</label>
+            <input type="number" id="nota">
+        </div>
+        <input type="submit" value="Enviar" id="enviar">
+    </form>
+
+    <script src="../JS/logicCad.js"></script>
+</body>
+
+</html>
