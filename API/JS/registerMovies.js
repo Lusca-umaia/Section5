@@ -11,7 +11,7 @@ submit.addEventListener('click', function (e) {
 
         for (let index = 0; index < inputChe.length; index++) {
             if (inputChe[index].checked) {
-                array.push(inputChe[index].value)
+                array.push(parseInt(inputChe[index].value))
             }
         }
 
